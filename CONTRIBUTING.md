@@ -1,6 +1,3 @@
-# hello-world
-hello-world in any programming language.
-
 ### Add a language
 
 To add a language you should add the folowing:
@@ -11,4 +8,3 @@ To add a language you should add the folowing:
     * replace all accurencies with `{{*}}` the information
 * commit message showld have the following message `✨ added {{LANGUAGE}}`
 * create a pull request with the `add language` template.
-
