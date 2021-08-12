@@ -12,3 +12,15 @@ To add a language you should add the folowing:
 * commit message showld have the following message `✨ added {{LANGUAGE}}`
 * create a pull request with the `add language` template.
 
+
+# Languages
+
+* [python](./python)
+* [assembly](./assembly)
+* [cpp](./cpp)
+* [test](./test)
+* [javascript](./javascript)
+* [csharp](./csharp)
+* [go](./go)
+* [bash](./bash)
+* [c](./c)
