@@ -15,12 +15,14 @@ To add a language you should add the folowing:
 
 ### Languages
 
-* [python](./python)
-* [assembly](./assembly)
 * [cpp](./cpp)
-* [test](./test)
-* [javascript](./javascript)
-* [csharp](./csharp)
-* [go](./go)
-* [bash](./bash)
+* [ruby](./ruby)
+* [assembly](./assembly)
 * [c](./c)
+* [haskell](./haskell)
+* [javascript](./javascript)
+* [python](./python)
+* [go](./go)
+* [csharp](./csharp)
+* [bash](./bash)
+* [java](./java)
