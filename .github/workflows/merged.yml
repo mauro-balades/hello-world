@@ -9,6 +9,9 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
+      - name: Check ls
+        run: ls
+
       - name: Setup python
         uses: actions/setup-python@v1
         with:
