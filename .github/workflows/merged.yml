@@ -1,26 +1,23 @@
 on:
   pull_request:
-    branches:
-      - main
-    types: [closed]
+  push:
 
 jobs:
   default:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - name: Check ls
-        run: ls
 
       - name: Setup python
         uses: actions/setup-python@v1
         with:
           python-version: '3.x'
       - name: Execute script
+        working-directory: /
         run: |
           python3 add_language.py
         
       - name: Commit files
+        working-directory: /
         run: |
           git add README.md
           git commit -m "📝 updated language list" -a
