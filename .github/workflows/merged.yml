@@ -12,12 +12,10 @@ jobs:
         with:
           python-version: '3.x'
       - name: Execute script
-        working-directory: /
         run: |
           python3 add_language.py
         
       - name: Commit files
-        working-directory: /
         run: |
           git add README.md
           git commit -m "📝 updated language list" -a
