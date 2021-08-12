@@ -26,8 +26,9 @@ def main():
     text = getReadme()
     splited = text.split("### Languages")[0]
     langs = getLanguages()
+    _len = len(langs.split('\n')) - 1
 
-    setReadme(splited + "### Languages\n" + langs)
+    setReadme(splited + f"### Languages ({_len})\n" + langs)
 
 if __name__ == "__main__":
     main()
