@@ -5,6 +5,9 @@ on:
 jobs:
   default:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ../
     steps:
 
       - name: Setup python
@@ -23,4 +26,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: workflow-test
+          branch: main
