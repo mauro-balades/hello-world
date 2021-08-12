@@ -24,10 +24,10 @@ def getReadme():
 
 def main():
     text = getReadme()
-    splited = text.split("# Languages")[0]
+    splited = text.split("### Languages")[0]
     langs = getLanguages()
 
-    setReadme(splited + "# Languages\n" + langs)
+    setReadme(splited + "### Languages\n" + langs)
 
 if __name__ == "__main__":
     main()

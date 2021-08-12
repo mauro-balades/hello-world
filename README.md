@@ -13,7 +13,7 @@ To add a language you should add the folowing:
 * create a pull request with the `add language` template.
 
 
-# Languages
+### Languages
 
 * [python](./python)
 * [assembly](./assembly)
