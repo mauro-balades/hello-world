@@ -23,6 +23,7 @@ To add a language you should add the folowing:
 * [javascript](./javascript)
 * [python](./python)
 * [go](./go)
+* [coffeescript](./coffeescript)
 * [csharp](./csharp)
 * [bash](./bash)
 * [java](./java)
