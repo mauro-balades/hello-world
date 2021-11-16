@@ -18,17 +18,18 @@ To add a language you should add the folowing:
 * create a pull request with the `add language` template.
 
 
-### Languages (12)
+### Languages (13)
 
-* [cpp](./cpp)
-* [ruby](./ruby)
-* [assembly](./assembly)
-* [c](./c)
-* [haskell](./haskell)
-* [javascript](./javascript)
-* [python](./python)
 * [go](./go)
-* [coffeescript](./coffeescript)
 * [csharp](./csharp)
 * [bash](./bash)
+* [assembly](./assembly)
+* [haskell](./haskell)
+* [ruby](./ruby)
+* [cpp](./cpp)
+* [python](./python)
+* [javascript](./javascript)
+* [vim](./vim)
+* [c](./c)
+* [coffeescript](./coffeescript)
 * [java](./java)
